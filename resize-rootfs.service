@@ -1,0 +1,10 @@
+[Unit]
+Description=Resize rootfs partition and filesystem to fill disk
+ConditionVirtualization=!container
+
+[Service]
+ExecStart=resize-rootfs
+RemainAfterExit=yes
+
+[Install]
+WantedBy=sysinit.target

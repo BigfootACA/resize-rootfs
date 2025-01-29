@@ -50,3 +50,4 @@ fonts.scale
 fonts.dir
 /src
 /pkg
+.vscode-ctags
